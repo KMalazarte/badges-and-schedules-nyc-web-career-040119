@@ -8,5 +8,10 @@ def batch_badge_creator(array)
   batch
 end
 
-def assign_rooms
+def assign_rooms(array)
+  x = 7
+  while x <= 7
+  array.each {|name| print "Hello, #{name}! You'll be assigned to room #{x}!"
+  x += 1 
+end 
   
