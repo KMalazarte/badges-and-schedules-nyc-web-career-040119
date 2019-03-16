@@ -12,7 +12,7 @@ def assign_rooms(array)
   assignments = []
   x = 1
   while x <= 7
-  array.each_with_index {|name| print "Hello, #{name}! You'll be assigned to room #{x}!"
+  array.each_with_index {|name, x| print "Hello, #{name}! You'll be assigned to room #{x}!"
   x += 1 
 end 
 end
