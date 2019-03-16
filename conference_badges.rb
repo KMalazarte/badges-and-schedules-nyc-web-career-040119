@@ -9,7 +9,7 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  x = 7
+  x = 1
   while x <= 7
   array.each {|name| print "Hello, #{name}! You'll be assigned to room #{x}!"
   x += 1 
