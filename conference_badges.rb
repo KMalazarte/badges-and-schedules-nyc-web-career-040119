@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-    array.each do |name| 
-    print "Hello, my name is #{name}.".toa
+    array.each do  
+    "Hello, my name is #{name}."
 end
 end
