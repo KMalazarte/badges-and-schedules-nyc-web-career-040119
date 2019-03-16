@@ -7,3 +7,5 @@ def batch_badge_creator(array)
   array.each {|name| batch.push badge_maker(name)}
   batch
 end
+
+def assign 
