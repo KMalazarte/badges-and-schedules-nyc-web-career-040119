@@ -14,4 +14,5 @@ def assign_rooms(array)
   array.each {|name| print "Hello, #{name}! You'll be assigned to room #{x}!"
   x += 1 
 end 
+end
   
